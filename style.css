@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    font-family: "Holtwood One SC", serif;
+}
+
+@media (max-width : 767px) {
+    body {
+        width: max-content;
+    }
+}
+
+.header {
+    background-color: #FF8414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+.logo {
+    padding: 12px;
+    width: 100px;
+    height: auto;
+}
+
+.header-itens {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF;
+    margin: 24px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.centrelizeda {
+    padding-right: 32%;
+}
+
+.home {
+    background: #7986cb;
+    color: floralwhite;     
+    background-image: url("./images/background-home-blur.png");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    text-align: center;
+}
+
+.cardapio {
+    background: #7986cb;
+    color: floralwhite;     
+    text-align: center;
+    background-image: url("./images/3a6408a75b9b07043c27510afc9a3d42.jpeg");
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.cardapio-container {
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.home-container {
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.greetings-h1 {
+    padding-top: 45%;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: 5px 5px #000;
+}
+
+
+.ifood-text{
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 12px;
+    color: #FFF;
+    text-shadow: 5px 5px #000;
+}
+
+.greetings-h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: 5px 5px #000;
+}
+
+.branding-name {
+    color: #FF8414
+}
+
+.menu-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: 2;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    border-radius: 50px;
+    color: #FFF;
+    font-family: "Holtwood One SC", serif;
+    font-size: 18px;
+    padding: 18px;
+    border-color: #401404;
+    text-shadow: 5px 5px #000;
+    margin-bottom: 25%;
+}
+
+.ifood-icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.cardapio-text{
+    padding-top: 10%;
+}
+
+.card{
+    position: initial;
+}
+
+.card-body{
+    background-color: #FF8414;
+}
+
+.card-title {
+    text-shadow: 2px 2px #000;
+    font-size: 16px;
+}
+
+.card-text {
+    font-size: 14px;
+}
