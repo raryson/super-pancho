@@ -40,7 +40,7 @@ body {
 }
 
 .home {
-    background: #7986cb;
+    background: #401404;
     color: floralwhite;     
     background-image: url("./images/background-home-blur.png");
     background-repeat: no-repeat;
@@ -49,11 +49,25 @@ body {
 }
 
 .cardapio {
-    background: #7986cb;
+    background: #401404;
     color: floralwhite;     
     text-align: center;
     background-image: url("./images/3a6408a75b9b07043c27510afc9a3d42.jpeg");
     background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+.localizacao {
+    background: #401404;
+    color: floralwhite;     
+    text-align: center;
+    background-size:100% 100%;
+}
+
+.footer {
+    background: #2a2a2a;
+    color: #a3a3a3;     
+    text-align: center;
     background-size:100% 100%;
 }
 
@@ -69,12 +83,41 @@ body {
     align-items: center;
 }
 
+.footer-icon {
+    height: 50px;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
 .greetings-h1 {
     padding-top: 45%;
     font-size: 40px;
     font-weight: 400;
     color: #FFF;
     text-shadow: 5px 5px #000;
+}
+
+.greetings-h1-localizacao {
+    padding-top: 5%;
+    font-size: 40px;
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: 5px 5px #000;
+}
+
+.greetings-h1-localizacao-footer {
+    margin-bottom: 5%;
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFF;
+    text-shadow: 5px 5px #000;
+}
+
+.greetings-h3-footer-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -139,4 +182,9 @@ body {
 
 .card-text {
     font-size: 14px;
+}
+
+.map {
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
