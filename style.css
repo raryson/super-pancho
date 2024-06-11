@@ -48,7 +48,13 @@ body {
     text-align: center;
 }
 
+.card-footer {
+    background: #401404; 
+    color: white;
+}
+
 .cardapio {
+    padding-bottom: 5%;
     background: #401404;
     color: floralwhite;     
     text-align: center;
@@ -90,7 +96,7 @@ body {
 }
 
 .greetings-h1 {
-    padding-top: 45%;
+    padding-top: 25%;
     font-size: 40px;
     font-weight: 400;
     color: #FFF;
@@ -164,11 +170,20 @@ body {
 }
 
 .cardapio-text{
-    padding-top: 10%;
+    padding-top: 5%;
+}
+
+.card-container {
+    padding-right: 192px;
+    padding-left: 192px;
+    padding-bottom: 24px;
 }
 
 .card{
     position: initial;
+    border: none;
+    border-radius: 50px;
+    margin-right: 12px;
 }
 
 .card-body{

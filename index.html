@@ -24,7 +24,7 @@
         <h1 class="greetings-h1">Bem vindo ao <span class="branding-name">Super Pancho</span></h1>
         <h3 class="greetings-h3">Do tamanho da sua fome</h3>
             <img src="images/Arrow 1.png" width="86px" height="auto" alt="">
-            <button class="menu-button">Cardápio</button>
+            <a class="link" href="#cardapio"><button class="menu-button">Cardápio</button></a>
 
 
         <div class="ifood-icon">
@@ -37,9 +37,9 @@
     <div class="cardapio" id="cardapio">
         <div class="home-container container">
         <h1 class="greetings-h1 cardapio-text">Cardápio</h1>
-        <div class="card-group">
+        <div class="card-group card-container">
             <div class="card">
-              <img src="/images/background-home-true.jpg" class="card-img-top" alt="...">
+              <img src="/images/background-home-true.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Pancho Tradicional</h5>
                 <p class="card-text">Pão de brioche 25cm, salsicha frankburguer 28cm ou tradicional 26 cm, chimichurri, maionese especial, ketchup, mostarda e queijo parmesão.</p>
@@ -49,7 +49,7 @@
               </div>
             </div>
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/images/background-home-true.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Pancho de Panceta</h5>
                 <p class="card-text">Pão de brioche 25cm, linguiça pampa 28cm, maionese especial, ketchup, mostarda, queijo parmesão, bacon e queijo ralado.</p>
@@ -58,30 +58,21 @@
                 <small class="text-muted">R$30,00</small>
               </div>
             </div>
-            <div class="card">
-                <img src="/images/background-home-true.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Pancho Carne de Panela</h5>
-                  <p class="card-text">Pão de brioche 25cm, carne de panela desfiada, cebola caramelizada, chimichuri, maionese especial, ketchup, mostarda e queijo parmesão.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">R$33,00</small>
-                </div>
-              </div>
+
           </div>
-          <div class="card-group">
+          <div class="card-group card-container">
             <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+              <img src="/images/background-home-true.jpg" class="card-img-top">
               <div class="card-body">
-                <h5 class="card-title">Ka Churrasco</h5>
-                <p class="card-text">Pão baguete dágua 25cm, maionse especial, ketchup, mostada, alface, cebola, tomate, batata palha e um espetinho.</p>
+                <h5 class="card-title">Pancho Carne de Panela</h5>
+                <p class="card-text">Pão de brioche 25cm, carne de panela desfiada, cebola caramelizada, chimichuri, maionese especial, ketchup, mostarda e queijo parmesão.</p>
               </div>
               <div class="card-footer">
-                <small class="text-muted">R$30,00</small>
+                <small class="text-muted">R$33,00</small>
               </div>
             </div>
             <div class="card">
-                <img src="/images/background-home-true.jpg" class="card-img-top" alt="...">
+                <img src="/images/background-home-true.jpg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Espetinho de Carne</h5>
                   <p class="card-text">Carne da melhor qualidade feita com o maior cuidado possível.</p>
@@ -90,8 +81,20 @@
                   <small class="text-muted">R$13,00</small>
                 </div>
               </div>
+          </div>
+          <div class="card-group card-container">
+            <div class="card">
+              <img src="/images/background-home-true.jpg" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">Ka Churrasco</h5>
+                <p class="card-text">Pão baguete dágua 25cm, maionse especial, ketchup, mostada, alface, cebola, tomate, batata palha e um espetinho.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">R$30,00</small>
+              </div>
+            </div>
               <div class="card">
-                <img src="..." class="card-img-top" alt="...">
+                <img src="/images/background-home-true.jpg" class="card-img-top">
                 <div class="card-body">
                   <h5 class="card-title">Espetinho de Frango</h5>
                   <p class="card-text">O frango mais feliz da fazenda agora pronto para te deixar feliz em forma de espetinho.</p>
@@ -101,9 +104,9 @@
                 </div>
               </div>
           </div>
-          <div class="card-group">
+          <div class="card-group card-container">
             <div class="card">
-              <img src="/images/background-home-true.jpg" class="card-img-top" alt="...">
+              <img src="/images/background-home-true.jpg" class="card-img-top">
               <div class="card-body">
                 <h5 class="card-title">Espetinho Misto</h5>
                 <p class="card-text">Uma mistura da carne mais bem preparada e do frango mais feliz da cidade para te deixar de queixo caido.</p>
@@ -128,9 +131,9 @@
   <div class="localizacao" id="localizacao">
       <div class="home-container">
       <h1 class="greetings-h1-localizacao">Venha nos <span style="color:#3c9cf5">Visitar!</span></h1>
-      <!-- <div class="map">
+      <div class="map">
         <iframe width="900" height="450" style="border:0" load="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/search?q=Rua%20Engenheiro%20Rodolfo%20Ahrons%2C%20115%20-%20Partenon%2C%20Porto%20Alegre%20-%20RS%2C%20Brasil&key=AIzaSyA7dSrM8kI5nxdkdQJasrPz6o88JKF4qdU"></iframe>
-      </div> -->
+      </div>
       <h1 class="greetings-h1-localizacao-footer">Rua Engenheiro Rodolfo Ahrons 115, Intercap <br>Porto Alegre</h1>
 
     </div>
