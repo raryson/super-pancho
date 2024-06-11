@@ -204,7 +204,7 @@ body {
 
 @media (max-width : 767px) {
     body {
-        width: max-content;
+        width: min-content;
     }
 
     .header-container {
