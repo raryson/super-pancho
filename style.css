@@ -3,12 +3,6 @@ body {
     font-family: "Holtwood One SC", serif;
 }
 
-@media (max-width : 767px) {
-    body {
-        width: max-content;
-    }
-}
-
 .header {
     background-color: #FF8414;
     display: flex;
@@ -190,6 +184,10 @@ body {
     background-color: #FF8414;
 }
 
+.arrow {
+    width: 86px;
+}
+
 .card-title {
     text-shadow: 2px 2px #000;
     font-size: 16px;
@@ -203,3 +201,61 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+@media (max-width : 767px) {
+    body {
+        width: min-content;
+    }
+
+    .header-container {
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+
+    .greetings-h1{
+       font-size: 82px; 
+    }
+
+    .greetings-h3{
+        font-size: 48px;
+    }
+
+    .home {
+        height: max-content;
+    }
+
+    .menu-button {
+        font-size: 48px;
+        border: 4px 4px 4px solid;
+    }
+
+    .arrow {
+        height: 192px;
+        width: auto;
+    }
+
+    .card-container {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+    .card-title {
+        font-size: 48px;
+    }
+
+    .card-text {
+        font-size: 24px;
+    }
+
+    .text-muted {
+        font-size: 24px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+}
+
