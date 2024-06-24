@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: "Holtwood One SC", serif;
+}
+
+.header {
+  background-color: #ff8414;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  padding: 12px;
+  width: 100px;
+  height: auto;
+}
+
+.header-itens {
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  margin: 24px;
+}
+
+.header-container {
+  display: flex;
+}
+
+.centrelizeda {
+  padding-right: 32%;
+}
+
+.home {
+  background: #401404;
+  color: floralwhite;
+  background-image: url("./images/background-home-blur.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.card-footer {
+  background: #401404;
+  color: white;
+}
+
+.cardapio {
+  padding-bottom: 5%;
+  background: #401404;
+  color: floralwhite;
+  text-align: center;
+  background-image: url("./images/3a6408a75b9b07043c27510afc9a3d42.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.localizacao {
+  background: #401404;
+  color: floralwhite;
+  text-align: center;
+  background-size: 100% 100%;
+}
+
+.footer {
+  background: #2a2a2a;
+  color: #a3a3a3;
+  text-align: center;
+  background-size: 100% 100%;
+}
+
+.cardapio-container {
+  display: inline-flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.home-container {
+  display: inline-flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.footer-icon {
+  height: 50px;
+  margin-right: 18px;
+  margin-left: 18px;
+}
+
+.greetings-h1 {
+  padding-top: 25%;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 5px 5px #000;
+}
+
+.greetings-h1-localizacao {
+  padding-top: 5%;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 5px 5px #000;
+}
+
+.greetings-h1-localizacao-footer {
+  margin-bottom: 5%;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 5px 5px #000;
+}
+
+.greetings-h3-footer-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.ifood-text {
+  font-size: 40px;
+  font-weight: 400;
+  margin-left: 12px;
+  color: #fff;
+  text-shadow: 5px 5px #000;
+}
+
+.greetings-h3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  text-shadow: 5px 5px #000;
+}
+
+.branding-name {
+  color: #ff8414;
+}
+
+.menu-button {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: 2;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  border-radius: 50px;
+  color: #fff;
+  font-family: "Holtwood One SC", serif;
+  font-size: 18px;
+  padding: 18px;
+  border-color: #401404;
+  text-shadow: 5px 5px #000;
+  margin-bottom: 25%;
+}
+
+.ifood-icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.cardapio-text {
+  padding-top: 5%;
+}
+
+.card-container {
+  padding-right: 192px;
+  padding-left: 192px;
+  padding-bottom: 24px;
+}
+
+.card {
+  position: initial;
+  border: none;
+  border-radius: 50px;
+  margin-right: 12px;
+}
+
+.card-body {
+  background-color: #ff8414;
+}
+
+.arrow {
+  width: 86px;
+}
+
+.card-title {
+  text-shadow: 2px 2px #000;
+  font-size: 16px;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.map {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 767px) {
+  body {
+    width: min-content;
+  }
+
+  .header-container {
+    display: none;
+  }
+
+  .header {
+    justify-content: center;
+  }
+
+  .greetings-h1 {
+    font-size: 82px;
+  }
+
+  .greetings-h3 {
+    font-size: 48px;
+  }
+
+  .home {
+    height: max-content;
+  }
+
+  .menu-button {
+    font-size: 48px;
+    border: 4px 4px 4px solid;
+  }
+
+  .arrow {
+    height: 192px;
+    width: auto;
+  }
+
+  .card-container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .card-title {
+    font-size: 48px;
+  }
+
+  .card-text {
+    font-size: 24px;
+  }
+
+  .text-muted {
+    font-size: 24px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+}
